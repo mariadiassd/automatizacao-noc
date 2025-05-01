@@ -15,12 +15,12 @@
           }
       
           .container {
-            background: rgba(255, 255, 255, 0.615);
+            background: rgba(131, 138, 162, 0.615);
             border-radius: 15px;
             box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
             max-width: 800px;
             width: 100%;
-            border-top: 6px solid #0077cc;
+            border-top: 6px solid #002a49;
           }
       
           .tabs {
@@ -32,7 +32,7 @@
             text-align: center;
             padding: 15px;
             cursor: pointer;
-            background: #cce6ffdf;
+            background: #84a1d7df;
             border-bottom: 3px solid transparent;
             font-weight: bold;
             transition: background 0.3s;
@@ -43,8 +43,8 @@
           }
       
           .tab.active {
-            background: #ffffffd0;
-            border-bottom: 3px solid #0077cc;
+            background: #7e90b0d0;
+            border-bottom: 3px solid #062a45;
           }
       
           .tab-content {
@@ -60,13 +60,13 @@
             display: block;
             margin-top: 15px;
             font-weight: bold;
-            color: #003366;
+            color: #ffffff;
           }
       
           input, select, textarea {
             width: 100%;
             padding: 10px;
-            border: 1px solid rgba(187, 204, 221, 0.821);
+            border: 1px solid rgba(241, 241, 241, 0.501);
             border-radius: 8px;
             font-size: 1rem;
             margin-top: 5px;
@@ -79,7 +79,7 @@
           button {
             width: 100%;
             padding: 12px;
-            background-color: #0077cc;
+            background-color: #112b4d;
             color: rgba(255, 255, 255, 0.853);
             border: none;
             border-radius: 8px;
@@ -90,14 +90,14 @@
           }
       
           button:hover {
-            background-color: #005fa3;
+            background-color: hsl(205, 85%, 11%);
           }
       
           #resultado, #resultadoProtocolo, #resultadoPlantao {
             margin-top: 20px;
             font-size: 0.95rem;
-            color: #003366;
-            background: #f0f8ffbd;
+            color: #000000;
+            background: #ffffff6e;
             padding: 15px;
             border-left: 5px solid #007acc;
             border-radius: 8px;
@@ -119,7 +119,7 @@
 <body>
   <div class="container">
     <div class="tabs">
-      <div class="tab active" onclick="abrirAba('formulario')">Formulário</div>
+      <div class="tab active" onclick="abrirAba('formulario')">Formulário de protocolo</div>
       <div class="tab" onclick="abrirAba('localizacao')">Localização Técnica</div>
       <div class="tab" onclick="abrirAba('plantao')">Passagem de Plantão</div>
     </div>
